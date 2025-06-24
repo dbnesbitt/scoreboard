@@ -4,5 +4,43 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
+    background-color: #1B244A;
+    padding: 40px 10px;
+    margin: 0 auto;
+    width: 85%;
+}
+h3 {
+    font-family: Verdana;
+    color: #EEEEEE;
+    font-size: 40;
+    font-weight: bold;
+    text-align: center;
+    
+}
+#homeScore, #awayScore{
+    font-family: Verdana;
+    color: #F94F6D;
+    background-color: 080001;
+    text-align: center;
+    font-size: 90;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+#home1, #home2, #home3, #away1, #away2, #away3 {
+color: #9AABD8;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+padding:10px;
+margin-right:10px;
+font-family: Cursed Timer ULiL;
+background-color: #1B244A;
+
+}
+.pointContainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
